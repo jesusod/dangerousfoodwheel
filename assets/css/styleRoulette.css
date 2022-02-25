@@ -13,7 +13,7 @@
     position: absolute;
     width:  60px;
     left:  172px;
-    top: -20 px;
+    top: -100 px;
     z-index: 2;
 }
 
@@ -22,15 +22,91 @@
     width: 100%;
     height: 100%;
     margin-top: 40px;
+
+
 }
 
 .button {
     display: block;
-    width: 100px;
+    width: 75px;
     margin: 40px;
     cursor: pointer;
 }
 
 .button:hover {
     opacity:  0.8;
+}
+body{
+	background-image: url("/assets/img/mesa\ de\ monstruos.png");
+}
+#lista {
+ border-radius: 5px 5px 5px 5px;
+ -moz-border-radius: 5px 5px 5px 5px;
+ -webkit-border-radius: 5px 5px 5px 5px;
+ border: 5px solid #f5f2f2;
+ width: 150px;
+ height: 250px;
+ padding: 100px;
+ float:left;
+ margin-left: 200px;
+ margin-top: 250px;
+ text-align: center;
+ font-size: 50px;
+ font-family: 'Creepster', cursive;
+color: #fff;
+text-shadow:
+	  0 0 5px #fff,
+	  0 0 10px #fff,
+	  0 0 20px #fff,
+	  0 0 40px rgb(39, 13, 184),
+	  0 0 80px rgb(39, 13, 184),
+	  0 0 90px rgb(39, 13, 184),
+	  0 0 100px rgb(39, 13, 184),
+	  0 0 150px rgb(39, 13, 184);
+	  box-shadow:
+	  0 0 5px #fff,
+	  0 0 10px #fff,
+	  0 0 20px #fff,
+	  0 0 40px rgb(39, 13, 184),
+	  0 0 80px rgb(39, 13, 184),
+	  0 0 90px rgb(39, 13, 184),
+	  0 0 100px rgb(39, 13, 184),
+	  0 0 150px rgb(39, 13, 184); 
+  }
+
+
+
+#jugadores {
+border-radius: 5px 5px 5px 5px;
+ -moz-border-radius: 5px 5px 5px 5px;
+ -webkit-border-radius: 5px 5px 5px 5px;
+ border: 5px solid #f5f2f2;
+ width: 150px;
+ height: 250px;
+ padding: 100px;
+ float:right;
+ margin-right: 200px;
+ margin-top: 250px;
+ text-align: center;
+ font-size: 50px;
+ font-family: 'Creepster', cursive;
+color: #fff;
+text-shadow:
+	  0 0 5px #fff,
+	  0 0 10px #fff,
+	  0 0 20px #fff,
+	  0 0 40px rgb(39, 13, 184),
+	  0 0 80px rgb(39, 13, 184),
+	  0 0 90px rgb(39, 13, 184),
+	  0 0 100px rgb(39, 13, 184),
+	  0 0 150px rgb(39, 13, 184);
+	  box-shadow:
+	  0 0 5px #fff,
+	  0 0 10px #fff,
+	  0 0 20px #fff,
+	  0 0 40px rgb(39, 13, 184),
+	  0 0 80px rgb(39, 13, 184),
+	  0 0 90px rgb(39, 13, 184),
+	  0 0 100px rgb(39, 13, 184),
+	  0 0 150px rgb(39, 13, 184);
 }
