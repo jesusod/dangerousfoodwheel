@@ -25,4 +25,7 @@ function actualizarListaInicial() {
 }
 function reset(){
 
+	/*lista.innerHTML= ""
+    lista.selectedName= ""*/
+
 }
