@@ -1,22 +1,42 @@
-// Immediately invoked function expression
-// to not pollute the global scope
-var nombres = new Array("Martí","Carolina","Jesus","Abel", "Dawid");
-var listaSelecionable = nombres;
+/*Creo el array con los nombres que quiera*/
+var nombres = new Array("Jesus","Martí","Carolina","Abel", "Dawid");
 
-function generarNombres() {
-	var lista = document.getElementById("lista");
-	/*lista.innerHTML = "";*/
+/*Creamos la variable lista seleccionable y le damos el valor del array tb. Slide devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido).
+ El array original no se modificará.*/
+var listaSelecionable = nombres.slice();
+
+function actualizaNombresSelecionables() {
+	var lista = document.getElementById("lista"); 
+	lista.innerHTML = "";
 	for (i =0; i<listaSelecionable.length; i++) {
-		lista.innerHTML += nombres [i] +"<br>";
+		lista.innerHTML += listaSelecionable[i]+"<br>";
 	}
+}
+function elegirJugador () {
+	if (listaSelecionable.length>0) {
 
-/*funcion reset () {
+		/* Fase 1: Elige posicion aleatoria en una lista seleccionable*/ 
+		var aleatorio = (Math.random()*(listaSelecionable.length-1)).toFixed(0);
 
-    lista.innerHTML= ""
-    lista.selectedName= ""
+		/* Fase 2: Copia seleccionado a la derecha */
+		var jugadores = document.getElementById("jugadores"); 	
+		jugadores.innerHTML += listaSelecionable[aleatorio]+"<br>";
 
-} */
+		/* Fase 3: Eliminar seleccionado de listaSeleccionable */ 
+		listaSelecionable.splice(aleatorio,1);
 
+		/* Fase 4: Actualizar lista a partir de listaSeleccionable */ 
+		actualizaNombresSelecionables();
+	}
+	else
+		alert("La lista de nombres seleccionables está vacía, hay que resetear el juego");
+}
+function reset() {
+	
+	listaSelecionable = nombres.slice();  // copia nombres en listaSelecionable	
+	//var jugadores = document.getElementById("jugadores");//
+	jugadores.innerHTML = "";  //Vacía la caja de jugadores//
+	actualizaNombresSelecionables(); // Actualiza la lista de nombres seleccionables	
 }
 (function() {
     const wheel = document.querySelector(`.wheel`)
