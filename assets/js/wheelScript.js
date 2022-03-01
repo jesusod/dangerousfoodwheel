@@ -9,6 +9,14 @@ function generarNombres() {
 	for (i =0; i<listaSelecionable.length; i++) {
 		lista.innerHTML += nombres [i] +"<br>";
 	}
+
+/*funcion reset () {
+
+    lista.innerHTML= ""
+    lista.selectedName= ""
+
+} */
+
 }
 (function() {
     const wheel = document.querySelector(`.wheel`)

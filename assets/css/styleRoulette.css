@@ -6,14 +6,16 @@
     height: 400px;
     margin: 0 auto;
     position: relative;
+	margin-top: 320px;
+
 }
 
 .marker {
 
     position: absolute;
     width:  60px;
-    left:  172px;
-    top: -100 px;
+    left:  380px;
+    top: 160px;
     z-index: 2;
 }
 
@@ -21,20 +23,31 @@
 .wheel {
     width: 100%;
     height: 100%;
-    margin-top: 40px;
+	margin-top: 0px;
+    
 
 
 }
 
 .button {
-    display: block;
-    width: 75px;
-    margin: 40px;
-    cursor: pointer;
+    position: absolute;
+	margin-top: 100px;
+    width:  100px;
+	margin-left: 475px;
+    top: -100 px;
+    z-index: 2;
+
 }
 
 .button:hover {
     opacity:  0.8;
+}
+
+.playButtons {
+	margin-left: 300px;
+	margin-top: 100px;
+	display: flex;
+	gap: 20px;
 }
 body{
 	background-image: url("/assets/img/mesa\ de\ monstruos.png");
@@ -44,12 +57,12 @@ body{
  -moz-border-radius: 5px 5px 5px 5px;
  -webkit-border-radius: 5px 5px 5px 5px;
  border: 5px solid #f5f2f2;
- width: 150px;
+ width: 140px;
  height: 250px;
  padding: 100px;
  float:left;
- margin-left: 200px;
- margin-top: 250px;
+ margin-left: 70px;
+ margin-top: 40px;
  text-align: center;
  font-size: 50px;
  font-family: 'Creepster', cursive;
@@ -81,12 +94,12 @@ border-radius: 5px 5px 5px 5px;
  -moz-border-radius: 5px 5px 5px 5px;
  -webkit-border-radius: 5px 5px 5px 5px;
  border: 5px solid #f5f2f2;
- width: 150px;
+ width: 140px;
  height: 250px;
  padding: 100px;
  float:right;
- margin-right: 200px;
- margin-top: 250px;
+ margin-right: 70px;
+ margin-top: 40px;
  text-align: center;
  font-size: 50px;
  font-family: 'Creepster', cursive;

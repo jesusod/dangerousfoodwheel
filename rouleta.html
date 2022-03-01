@@ -10,21 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Lobster&family=Roboto&family=Space+Mono&display=swap" rel="stylesheet">
     <title>Rouleta</title>
 </head>
-<body> <!-- Evento Load de la página -->
-    <button onclick="elegirJugador();">Añadir jugador</button>
-    <button onclick="reset();">Reset</button>
+<body onload="generarNombres();"> <!-- Evento Load de la página -->
+   <!--<button onclick="elegirJugador();">Añadir jugador</button>
+    <button onclick="reset();">Reset</button>-->
 <br><br>
-<div id="lista">
-</div>
+<section>
+    <article class="playButtons">
+        <img src="insertarImagenBoton" onclick="elegirJugador();"/>
+        <img src="insertarImagenBoton" onclick="reset();"/>
+    </article>
+    <article id="lista">
+    </arcticle>
+</section>
+<img onclick="playAudio();"class="button" id="button" src="./assets/img/Frame Roulette/Roulette_Button.png" />
 <div id="jugadores">
 </div>
 
     
     <section id="app">
         <img class="marker" id="marker" src="./assets/img/Frame Roulette/marker.png" />
-        <img class="wheel" id="wheel" src="./assets/img/ruleta sin fondo y sin marcador modificada.png"  />
+        <!--<img onclick="playAudio();"class="button" id="button" src="./assets/img/Frame Roulette/button.png" />-->
+        <img class="wheel" id="wheel" src="./assets/img/Frame Roulette/Roulette_DEF.png"  />
         <audio id="myAudio" src="./assets/sounds/musica.mp3"></audio>
-        <img onclick="playAudio();"class="button" id="button" src="./assets/img/Frame Roulette/button.png" />
+        
         
     </section>
     <script src="./assets/js/wheelScript.js"></script>
