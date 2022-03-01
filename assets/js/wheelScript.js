@@ -1,10 +1,10 @@
 // Immediately invoked function expression
 // to not pollute the global scope
-var nombres = new Array("Martí","Carolina","Jesus","Abel", "Dawid");
-var listaSelecionable = nombres;
+let nombres = new Array("Martí","Carolina","Jesus","Abel", "Dawid");
+let listaSelecionable = nombres;
 
 function generarNombres() {
-	var lista = document.getElementById("lista");
+	let lista = document.getElementById("lista");
 	/*lista.innerHTML = "";*/
 	for (i =0; i<listaSelecionable.length; i++) {
 		lista.innerHTML += nombres [i] +"<br>";
@@ -16,6 +16,9 @@ function generarNombres() {
     lista.selectedName= ""
 
 } */
+
+/*let frankfurt = poner img
+let comida = new Array ("document.getElementByID()")*/
 
 }
 (function() {
@@ -37,7 +40,7 @@ function generarNombres() {
     });
 
    })(); 
-var x = document.getElementById("myAudio"); 
+   let x = document.getElementById("myAudio"); 
 
 function playAudio() { 
   x.play(); 
