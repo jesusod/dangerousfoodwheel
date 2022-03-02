@@ -69,9 +69,18 @@ body {
   
 }
 
+.logoDef{
+  display: flex;
+  margin-top: 20px;
+  /*margin-left: 350px;*/
+  width:auto;
+  height: 250px;
+}
+
+
 .textIntro {
   margin-top: 300px;
-  margin-left: 1100px;
+  margin-left: 900px;
   background-color:black;
   color: #fee;
   font-family: 'Creepster', cursive;
