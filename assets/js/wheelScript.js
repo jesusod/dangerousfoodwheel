@@ -50,7 +50,7 @@ function reset() {
         wheel.style.transform = `rotate(${deg}deg)` ; 
     });
 
-    wheel.addEventListener(`transitionEnd`, () => {
+    wheel.addEventListener(`transitionend`, () => {
         startButton.style.pointerEvents = `auto`;
         wheel.style.transition = `none`;
 
