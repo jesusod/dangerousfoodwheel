@@ -59,6 +59,38 @@ body {
   user-select: none;
 }
 
+.animation {
+  display: flex;
+  /*margin-top: 300px;*/
+  justify-content: center;
+  flex-basis: 100%;
+  gap: 5px;
+  
+  
+}
+
+.logoDef{
+  display: flex;
+  margin-top: 20px;
+  /*margin-left: 350px;*/
+  width:auto;
+  height: 250px;
+}
+
+
+.textIntro {
+  margin-top: 300px;
+  margin-left: 900px;
+  background-color:black;
+  color: #fee;
+  font-family: 'Creepster', cursive;
+  font-size: 210%;
+  padding: 40px;
+  width: 480px;
+  height: 450px;
+  text-align: justify;
+}
+
 .logo b{
   font-family: 'Creepster', cursive;
   font-size: 50px;
