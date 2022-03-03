@@ -25,7 +25,7 @@ body {
     width: 25%;
     height: 25%;
     margin-left: 0%;
-    margin-top: 10%;
+    margin-top: 6%;
   }
   
   @keyframes slidein {
@@ -34,7 +34,7 @@ body {
       margin-bottom: 50%;
       width: 20%*/
       margin-left: 0%;
-      margin-top: 10%;
+      margin-top: 6%;
     }
   
     to {
@@ -42,13 +42,13 @@ body {
       margin-top: 30%;
       width: 20%;*/
       margin-left: 70%;
-      margin-top: 0%;
+      margin-top: -7%;
     }
   }
   
 .logo {
   text-align: center;
-  width: 30%;
+  width: 50%;
   height: 10%;
   margin: auto;
   position: absolute;
@@ -72,15 +72,15 @@ body {
 .logoDef{
   display: flex;
   margin-top: 20px;
-  /*margin-left: 350px;*/
+  margin-right: 250px;
   width:auto;
-  height: 250px;
+  height: 150px;
 }
 
 
 .textIntro {
-  margin-top: 10px;
-  margin-left: 900px;
+  margin-top: 50px;
+  margin-left: 800px;
   color: #fee;
   font-family: 'Creepster', cursive;
   font-size: 210%;
@@ -88,11 +88,14 @@ body {
   width: 480px;
   height: 450px;
   text-align: justify;
+  background: rgba(9, 9, 9, 0.4);
+  border-radius: 60px;
+
 }
 
 .logo b{
   font-family: 'Creepster', cursive;
-  font-size: 50px;
+  font-size: 80px;
   /*font: 400 20vh;*/
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444;
