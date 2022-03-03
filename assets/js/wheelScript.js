@@ -55,13 +55,12 @@ function reset() {
         wheel.style.transition = `none`;
 		const actualDeg = deg % 360;
 		wheel.style.transform = `rotate(${actualDeg}deg)`;
-
-
     });
 
    })(); 
+
 let x = document.getElementById("myAudio"); 
 
-function playAudio() { 
-  x.play(); 
+	function playAudio() { 
+  	x.play(); 
 } 

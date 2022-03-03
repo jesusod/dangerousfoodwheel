@@ -1,130 +1,92 @@
-
-
 #app {
-
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    position: relative;
-	margin-top: 250px;
-
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 250px;
 }
-
 .marker {
-
-    position: absolute;
-    width:  60px;
-    left:  380px;
-    top: 160px;
-    z-index: 2;
+  position: absolute;
+  width: 60px;
+  left: 380px;
+  top: 160px;
+  z-index: 2;
 }
-
-
 .wheel {
-    width: 100%;
-    height: 100%;
-	margin-top: 0px;
-
-
-
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
 }
-
 .button {
-    position: absolute;
-	margin-top: 100px;
-    width:  100px;
-	margin-left: 475px;
-    top: 120px;
-    z-index: 2;
-	cursor: pointer;
-
+  position: absolute;
+  margin-top: 100px;
+  width: 100px;
+  margin-left: 475px;
+  top: 120px;
+  z-index: 2;
+  cursor: pointer;
 }
-
-
-.playButtons{
-	margin-left: 140px;
-	margin-top: 30px;
-	display: flex;
-	gap: 40px;
-	cursor: pointer;
+.playButtons {
+  margin-left: 140px;
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
 }
-.addPlayerButton:hover{
-	opacity: 0.788;
+.addPlayerButton:hover {
+  opacity: 0.788;
 }
-.resetButton:hover{
-	opacity: 0.788;
+.resetButton:hover {
+  opacity: 0.788;
 }
-body{
-	background-image: url("/assets/img/mesa\ de\ monstruos.png");
+body {
+  background-image: url("/assets/img/mesa\ de\ monstruos.png");
 }
 #lista {
- border-radius: 5px 5px 5px 5px;
- -moz-border-radius: 5px 5px 5px 5px;
- -webkit-border-radius: 5px 5px 5px 5px;
- border: 5px solid #f5f2f2;
- width: 140px;
- height: 250px;
- padding: 100px;
- float:left;
- margin-left: 70px;
- margin-top: 40px;
- text-align: center;
- font-size: 50px;
- font-family: 'Creepster', cursive;
-color: #fff;
-text-shadow:
-	  0 0 5px #fff,
-	  0 0 10px #fff,
-	  0 0 20px #fff,
-	  0 0 40px rgb(39, 13, 184),
-	  0 0 80px rgb(39, 13, 184),
-	  0 0 90px rgb(39, 13, 184),
-	  0 0 100px rgb(39, 13, 184),
-	  0 0 150px rgb(39, 13, 184);
-	  box-shadow:
-	  0 0 5px #fff,
-	  0 0 10px #fff,
-	  0 0 20px #fff,
-	  0 0 40px rgb(39, 13, 184),
-	  0 0 80px rgb(39, 13, 184),
-	  0 0 90px rgb(39, 13, 184),
-	  0 0 100px rgb(39, 13, 184),
-	  0 0 150px rgb(39, 13, 184); 
-  }
-
-
-
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 5px solid #f5f2f2;
+  width: 140px;
+  height: 250px;
+  padding: 100px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Creepster", cursive;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px rgb(39, 13, 184), 0 0 80px rgb(39, 13, 184),
+    0 0 90px rgb(39, 13, 184), 0 0 100px rgb(39, 13, 184),
+    0 0 150px rgb(39, 13, 184);
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px rgb(39, 13, 184), 0 0 80px rgb(39, 13, 184),
+    0 0 90px rgb(39, 13, 184), 0 0 100px rgb(39, 13, 184),
+    0 0 150px rgb(39, 13, 184);
+}
 #jugadores {
-border-radius: 5px 5px 5px 5px;
- -moz-border-radius: 5px 5px 5px 5px;
- -webkit-border-radius: 5px 5px 5px 5px;
- border: 5px solid #f5f2f2;
- width: 140px;
- height: 250px;
- padding: 100px;
- float:right;
- margin-right: 70px;
- margin-top: 40px;
- text-align: center;
- font-size: 50px;
- font-family: 'Creepster', cursive;
-color: #fff;
-text-shadow:
-	  0 0 5px #fff,
-	  0 0 10px #fff,
-	  0 0 20px #fff,
-	  0 0 40px rgb(39, 13, 184),
-	  0 0 80px rgb(39, 13, 184),
-	  0 0 90px rgb(39, 13, 184),
-	  0 0 100px rgb(39, 13, 184),
-	  0 0 150px rgb(39, 13, 184);
-	  box-shadow:
-	  0 0 5px #fff,
-	  0 0 10px #fff,
-	  0 0 20px #fff,
-	  0 0 40px rgb(39, 13, 184),
-	  0 0 80px rgb(39, 13, 184),
-	  0 0 90px rgb(39, 13, 184),
-	  0 0 100px rgb(39, 13, 184),
-	  0 0 150px rgb(39, 13, 184);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 5px solid #f5f2f2;
+  width: 140px;
+  height: 250px;
+  padding: 100px;
+  float: right;
+  margin-right: 70px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Creepster", cursive;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px rgb(39, 13, 184), 0 0 80px rgb(39, 13, 184),
+    0 0 90px rgb(39, 13, 184), 0 0 100px rgb(39, 13, 184),
+    0 0 150px rgb(39, 13, 184);
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px rgb(39, 13, 184), 0 0 80px rgb(39, 13, 184),
+    0 0 90px rgb(39, 13, 184), 0 0 100px rgb(39, 13, 184),
+    0 0 150px rgb(39, 13, 184);
 }
