@@ -1,12 +1,12 @@
 /*Creo el array con los nombres que quiera*/
-var nombres = new Array("Jesus","Martí","Carolina","Abel", "Dawid");
+let nombres = new Array("Jesus","Martí","Carolina","Abel", "Dawid");
 
 /*Creamos la variable lista seleccionable y le damos el valor del array tb. Slide devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido).
  El array original no se modificará.*/
-var listaSelecionable = nombres.slice();
+let listaSelecionable = nombres.slice();
 
 function actualizaNombresSelecionables() {
-	var lista = document.getElementById("lista"); 
+	let lista = document.getElementById("lista"); 
 	lista.innerHTML = "";
 	for (i =0; i<listaSelecionable.length; i++) {
 		lista.innerHTML += listaSelecionable[i]+"<br>";
@@ -53,11 +53,14 @@ function reset() {
     wheel.addEventListener(`transitionend`, () => {
         startButton.style.pointerEvents = `auto`;
         wheel.style.transition = `none`;
+		const actualDeg = deg % 360;
+		wheel.style.transform = `rotate(${actualDeg}deg)`;
+
 
     });
 
    })(); 
-var x = document.getElementById("myAudio"); 
+let x = document.getElementById("myAudio"); 
 
 function playAudio() { 
   x.play(); 
