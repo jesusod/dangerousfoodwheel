@@ -11,7 +11,7 @@
       Trello,
       Balsamiq,
       Figma,
-      DOM
+      DOM,
       CSS (Flex, KeyFrames, animation),
       Javascript (loops, arrays, conditionals, funcions, audio),
       Github
