@@ -25,7 +25,7 @@ body {
     width: 25%;
     height: 25%;
     margin-left: 0%;
-    margin-top: 30%;
+    margin-top: 10%;
   }
   
   @keyframes slidein {
@@ -34,7 +34,7 @@ body {
       margin-bottom: 50%;
       width: 20%*/
       margin-left: 0%;
-      margin-top: 30%;
+      margin-top: 10%;
     }
   
     to {
@@ -42,7 +42,7 @@ body {
       margin-top: 30%;
       width: 20%;*/
       margin-left: 70%;
-      margin-top: 25%;
+      margin-top: 0%;
     }
   }
   
@@ -79,9 +79,8 @@ body {
 
 
 .textIntro {
-  margin-top: 300px;
+  margin-top: 10px;
   margin-left: 900px;
-  background-color:black;
   color: #fee;
   font-family: 'Creepster', cursive;
   font-size: 210%;
